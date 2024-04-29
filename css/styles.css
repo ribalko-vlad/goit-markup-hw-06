@@ -883,27 +883,28 @@ fill: #ffffff;
 
 
 
-/* Для екранів з щільністю x1 (до 1.5x) */
-@media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
-  .section {
+
+/* Стилі для мобільних пристроїв (початкові стилі) */
+.section-one {
     background-image: url('../images/img-name.jpg');
-  }
+    background-size: cover;
+    background-position: center;
+    padding: 80px 0;
+    text-align: center;
 }
 
-/* Для екранів з щільністю x2 (від 1.5x до 2x) */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .section {
-    background-image: url('../images/img-name.jpg');
-  }
- 
+/* Медіа-запит для екранів шириною більше 768px */
+@media screen and (min-width: 768px) {
+    .section-one {
+        background-image: url('../images/img-name.jpg');
+    }
 }
 
-/* Для екранів з щільністю x3 (більше 2x) */
-@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi) {
-  .section {
-    background-image: url('../images/img-name.jpg');
-  }
-  
+/* Медіа-запит для екранів шириною більше 1158px */
+@media screen and (min-width: 1158px) {
+    .section-one {
+        background-image: url('../images/img-name.jpg');
+    }
 }
 
 
