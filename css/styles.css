@@ -854,5 +854,138 @@ fill: #ffffff;
 
 /* Стилі для екранів шириною від 769px до 1158px */
 @media (min-width: 769px) and (max-width: 1158px) {
-    
+
+}
+
+/* Для екранів з щільністю x1 (до 1.5x) */
+@media (-webkit-min-device-pixel-ratio: 1),
+(min-resolution: 96dpi) {
+    .section-one {
+        background-image: url('./images/background-normal.jpg');
+    }
+}
+
+/* Для екранів з щільністю x2 (від 1.5x до 2x) */
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    .section-one {
+        background-image: url('./images/background-high-res.jpg');
+    }
+}
+
+/* Для екранів з щільністю x3 (більше 2x) */
+@media (-webkit-min-device-pixel-ratio: 3),
+(min-resolution: 288dpi) {
+    .section-one {
+        background-image: url('./images/background-ultra-high-res.jpg');
+    }
+}
+
+
+
+/* Для екранів з щільністю x1 (до 1.5x) */
+@media (-webkit-min-device-pixel-ratio: 1), (min-resolution: 96dpi) {
+  .section {
+    background-image: url('../images/img-name.jpg');
+  }
+}
+
+/* Для екранів з щільністю x2 (від 1.5x до 2x) */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .section {
+    background-image: url('../images/img-name.jpg');
+  }
+ 
+}
+
+/* Для екранів з щільністю x3 (більше 2x) */
+@media (-webkit-min-device-pixel-ratio: 3), (min-resolution: 288dpi) {
+  .section {
+    background-image: url('../images/img-name.jpg');
+  }
+  
+}
+
+
+
+
+/* Стилі для мобільних пристроїв (початкові стилі) */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.header-logo {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-info li {
+    margin-right: 20px;
+}
+
+.info-link {
+    color: #333;
+    text-decoration: none;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Медіа-запит для екранів шириною більше 768px */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .header-logo {
+        font-size: 32px;
+    }
+
+    .info-link {
+        font-size: 18px;
+    }
+}
+
+/* Медіа-запит для екранів шириною більше 1158px */
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 70%;
+    }
+
+    .header-logo {
+        font-size: 40px;
+    }
+
+    .info-link {
+        font-size: 24px;
+    }
 }
