@@ -14,7 +14,7 @@ ul {
         0px 1px 6px rgba(46, 47, 66, 0.08);
         padding-top: 20px;
         padding-bottom: 14px;
-        
+
 }
 
 
@@ -1068,4 +1068,145 @@ background-size: cover;
 
 /*img-team*/
 
+.picture-port{
+background-image: url(../images/portfolio/portfolio-desk-1-min.jpg);
+background-size: cover;
+}
 
+
+@media screen and (max-width:767px) and (min-resolution:192dpi) {
+    .picture-port{
+        background-image: url(../images/portfolio/portfolio-desk-1@2x-min.jpg);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .picture-port {
+
+        max-width: 768px;
+        min-height: 432px;
+        background-image: url(../images/portfolio/portfolio-tab-1-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:768px) and (min-resolution:192dpi) {
+    .picture-port {
+        background-image: url(../images/portfolio/portfolio-tab-1@2x-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .picture-port {
+        max-width: 1200px;
+        min-height: 675px;
+        background-image: url(../images/portfolio/portfolio-mob-1-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:1200px) and (min-resolution:192dpi) {
+    .picture-port {
+        background-image: url(../images/portfolio/portfolio-mob-1@2x-min.jpg);
+    }
+
+}
+
+
+
+.picture-port-two {
+    background-image: url(../images/portfolio/portfolio-desk-2-min.jpg);
+    background-size: cover;
+}
+
+
+@media screen and (max-width:767px) and (min-resolution:192dpi) {
+    .picture-port-two {
+        background-image: url(../images/portfolio/portfolio-desk-2@2x-min.jpg);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .picture-port-two {
+
+        max-width: 768px;
+        min-height: 432px;
+        background-image: url(../images/portfolio/portfolio-tab-2-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:768px) and (min-resolution:192dpi) {
+    .picture-port-two {
+        background-image: url(../images/portfolio/portfolio-tab-2@2x-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .picture-port-two {
+        max-width: 1200px;
+        min-height: 675px;
+        background-image: url(../images/portfolio/portfolio-mob-2-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:1200px) and (min-resolution:192dpi) {
+    .picture-port-two {
+        background-image: url(../images/portfolio/portfolio-mob-2@2x-min.jpg);
+    }
+
+}
+
+
+.picture-port-three {
+    background-image: url(../images/portfolio/portfolio-desk-3-min.jpg);
+    background-size: cover;
+}
+
+
+@media screen and (max-width:767px) and (min-resolution:192dpi) {
+    .picture-port-three {
+        background-image: url(../images/portfolio/portfolio-desk-3@2x-min.jpg);
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .picture-port-three {
+
+        max-width: 768px;
+        min-height: 432px;
+        background-image: url(../images/portfolio/portfolio-tab-3-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:768px) and (min-resolution:192dpi) {
+    .picture-port-three{
+        background-image: url(../images/portfolio/portfolio-tab-3@2x-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .picture-port-three {
+        max-width: 1200px;
+        min-height: 675px;
+        background-image: url(../images/portfolio/portfolio-mob-3-min.jpg);
+    }
+
+}
+
+@media screen and (min-width:1200px) and (min-resolution:192dpi) {
+    .picture-port-three {
+        background-image: url(../images/portfolio/portfolio-mob-3@2x-min.jpg);
+    }
+
+}
+
+/*img-team*/
