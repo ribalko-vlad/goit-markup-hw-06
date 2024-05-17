@@ -12,6 +12,9 @@ ul {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
+        padding-top: 20px;
+        padding-bottom: 14px;
+        
 }
 
 
@@ -144,6 +147,46 @@ ul.info li:last-child {
     color: #404bbf;
 }
 
+.div-container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width:768px) {
+    .div-container {
+        max-width: 768px;
+    }
+
+}
+
+@media screen and (min-width:1158px) {
+    .div-container {
+        max-width: 1168px;
+    }
+
+}
+
+.info-header {
+    display: none;
+}
+
+.address {
+    display: none;
+}
+
+.mobile-open-btn {
+    line-height: 0;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    stroke: #111;
+}
 
 .section {
     background-color: #2e2f42;
@@ -972,4 +1015,57 @@ body {
         font-size: 24px;
     }
 }
+
+
+/* START*/
+
+
+.section{
+max-width: 375px;
+min-height: 211px;
+margin-left: auto;
+margin-right: auto;
+
+background-image: url(../images/sect1/Dark-bg-min.jpg);
+background-size: cover;
+}
+@media screen and (max-width:767px) and (min-resolution:192dpi){
+    .section{
+        background-image: url(../images/sect1/Dark-bg@2x-min.jpg);
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .section{
+
+        max-width: 768px;
+        min-height: 432px;
+        background-image: url(../images/sect1/tablet-min.jpg);
+    }
+    
+}
+@media screen and (min-width:768px) and (min-resolution:192dpi) {
+    .section {
+        background-image: url(../images/sect1/tablet@2x-min.jpg);
+    }
+
+}
+@media screen and  (min-width:1200px){
+    .section{
+        max-width: 1200px;
+        min-height: 675px;
+        background-image: url(../images/sect1/bg-desktop-min.jpg);
+    }
+    
+}
+@media screen and (min-width:1200px) and (min-resolution:192dpi) {
+    .section {
+        background-image: url(../images/sect1/bg-desktop@2x-min.jpg);
+    }
+
+}
+
+/*img-team*/
+
 
